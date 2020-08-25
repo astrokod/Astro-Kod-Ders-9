@@ -49,6 +49,8 @@ def sin(aci):
     return sonuc
 
 
+# Bu bölüm, scrip çalıştırıldığında çalışır.
+# İçe aktarıldığında çalışmaz
 if __name__ == "__main__":
     print(sin(45))
     print(1 / pow(2, 0.5))
